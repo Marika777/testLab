@@ -340,6 +340,7 @@ footer div p{
   height: 64px;
   border-radius: 4px;
   margin: 0 15px 30px 15px;
+  align-items: center;
 
 }
 .btn-form{
@@ -355,48 +356,12 @@ footer div p{
 }
 .blokiss{
   width: calc(288px + 96 * (100vw / 1920)) !important;
-  margin: 0 30px 30px 15px;
+  margin: 0 30px 30px 0;
 }
 .form-block{
   max-width: 840px;
   min-width: 288px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
