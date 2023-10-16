@@ -5,13 +5,13 @@ document.querySelector('.burger').addEventListener('click',function(){
     document.querySelector('.all_menu').classList.toggle('open_all_menu');
 })
 
-var buttons = document.querySelectorAll('.menu_item');
-for (var i = 0; i < buttons.length; ++i) {
+let buttons = document.querySelectorAll('.menu_item');
+for (let i = 0; i < buttons.length; ++i) {
     buttons[i].addEventListener('click', function() {
-        var elementOne = document.getElementById('one');
-		var elementTwo = document.getElementById('two');
-		var elementThree = document.getElementById('three');
-		var elementFour = document.getElementById('four');
+        let elementOne = document.getElementById('one');
+		let elementTwo = document.getElementById('two');
+		let elementThree = document.getElementById('three');
+		let elementFour = document.getElementById('four');
 		elementOne.classList.remove("active");
 		elementTwo.classList.remove("open");
 		elementThree.classList.remove("open_logo");
@@ -66,9 +66,9 @@ $('.question').click(function() {
 document.getElementById('feedbackForm').addEventListener('submit', function(event) {
 	event.preventDefault();
    
-	var name = document.getElementById('name').value;
-	var phone = document.getElementById('phone').value;
-	var message = document.getElementById('choice').value;
+	let name = document.getElementById('name').value;
+	let phone = document.getElementById('phone').value;
+	let message = document.getElementById('choice').value;
    
 	alert('Сообщение отправлено!');
 	this.reset();
