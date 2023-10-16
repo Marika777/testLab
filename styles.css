@@ -344,6 +344,7 @@ footer div p{
   height: 64px;
   border-radius: 4px;
   margin: 0 15px 30px 15px;
+  padding-left: 20px;
 }
 .btn-form{
   height: 64px !important;
@@ -364,6 +365,7 @@ footer div p{
   max-width: 840px;
   min-width: 288px;
 }
+
 
 
 
@@ -410,10 +412,11 @@ footer div p{
   .menu a{
     color:#83898F;
     font-size: 18px;
+    display: contents;
   }
   .menu a:hover{
     color:#83898F;
-    border-bottom: 1px solid #83898F;
+    /* border-bottom: 1px solid #83898F; */
   }
   .menu ul{
     flex-direction: column !important;
