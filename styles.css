@@ -333,6 +333,10 @@ footer div p{
   background-color: #F6F8FA;
   padding: 50px 0 30px 0;
 }
+.data_block{
+  align-items: center;
+  justify-content: center;
+}
 .data_block input{
   background-color: #F6F8FA;
   border: 0;
@@ -340,8 +344,6 @@ footer div p{
   height: 64px;
   border-radius: 4px;
   margin: 0 15px 30px 15px;
-  align-items: center;
-
 }
 .btn-form{
   height: 64px !important;
@@ -366,6 +368,11 @@ footer div p{
 
 
 
+@media (max-width: 708px) {
+  .blokiss{
+    margin: 0 30px 30px 30px !important;
+  }
+}
 
 
 @media (max-width: 768px) {
