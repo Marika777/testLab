@@ -3,8 +3,21 @@ document.querySelector('.burger').addEventListener('click',function(){
     document.querySelector('.menu').classList.toggle('open');
     document.querySelector('.logo').classList.toggle('open_logo');
     document.querySelector('.all_menu').classList.toggle('open_all_menu');
-})
-
+	document.querySelector('.burger').addEventListener('click',function(){
+		document.body.style.overflowY = "hidden";
+		document.querySelector('.active').addEventListener('click',function(){
+		
+			document.body.style.overflowY = "scroll";
+		});
+});
+});
+document.querySelector('.data_blovk_one').addEventListener('click',function(){
+	this.classList.toggle('open-inp');
+});
+document.querySelector('.data_blovk_two').addEventListener('click',function(){
+	this.classList.toggle('open-inp');
+});
+	
 let buttons = document.querySelectorAll('.menu_item');
 for (let i = 0; i < buttons.length; ++i) {
     buttons[i].addEventListener('click', function() {
@@ -16,6 +29,8 @@ for (let i = 0; i < buttons.length; ++i) {
 		elementTwo.classList.remove("open");
 		elementThree.classList.remove("open_logo");
 		elementFour.classList.remove("open_all_menu");
+		document.body.style.overflowY = "scroll";
+		
     });
 }
 

@@ -346,6 +346,15 @@ footer div p{
   margin: 0 15px 30px 15px;
   padding-left: 20px;
 }
+.data_block label{
+  font-family: "Graphik LCG Medium" !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  padding: 0 0 0 15px;
+  position: relative;
+  top: -20px !important;
+  display: none;
+}
 .btn-form{
   height: 64px !important;
   font-size: 20px !important;
@@ -365,10 +374,17 @@ footer div p{
   max-width: 840px;
   min-width: 288px;
 }
+.open-inp label{
+  display: flex;
+}
 
 
 
-
+@media (max-width: 1313px) {
+  .block{
+    margin: 0 30px 30px 30px !important;
+  }
+}
 
 @media (max-width: 708px) {
   .blokiss{
@@ -397,6 +413,7 @@ footer div p{
 @media (max-width: 900px) {
   .burger{ display: flex;}
 
+ 
   .menu{
     display: none;
     flex-direction: column;

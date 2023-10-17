@@ -50,7 +50,7 @@
         <main>
             <div id="how_it_works" class="d-flex flex-column align-items-center justify-content-center information_block">
                 <h2>Как это работает</h2>
-                <div class="d-flex flex-row flex-wrap justify-content-between w-75">
+                <div class="d-flex flex-row flex-wrap justify-content-center w-75">
                     <div class="block me-5">
                         <img src="./foto/waiting.png" alt="waiting"/>
                         <div>
@@ -204,9 +204,15 @@
                 <form id="feedbackForm">
                     <div class="form-block ">
                         <div class="data_block d-flex flex-row flex-wrap">
-                            <input type="text" id="name" name="name" required placeholder="Имя">
-                            <input type="number" id="phone" class="phone" required placeholder="Телефон">
-                        </div>
+                            <div class="data_blovk_one d-flex flex-column">
+                                <input type="text" id="name" name="name" required placeholder="Имя">
+                                <label>Введите своё Имя</label>
+                            </div>
+                            <div class="data_blovk_two d-flex flex-column">
+                                <input type="number" id="phone" class="phone" required placeholder="Телефон">
+                                <label>Введите свой Телефон</label>
+                            </div>
+                            </div>
                         <div class="checkbox-block d-flex flex-row align-items-center justify-content-center flex-wrap">
                             <div class="blokiss d-flex flex-row"><input id="choice"  required type="checkbox"><p class="m-0">Согласен, отказываюсь</p></div>
                             <button type="submit" class="btn-form btn btn-primary m-0 mb-5">Отправить</button>
